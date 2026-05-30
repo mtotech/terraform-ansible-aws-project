@@ -1,0 +1,44 @@
+---
+- hosts: webservers
+  become: yes
+
+  tasks:
+
+    - name: Update packages
+      dnf:
+        name: "*"
+        state: latest
+
+    - name: Install Docker
+      dnf:
+        name: docker
+        state: present
+
+    - name: Enable Docker
+      service:
+        name: docker
+        enabled: yes
+        state: started
+
+    - name: Create Flask directory
+      file:
+        path: /opt/flask-app
+        state: directory
+
+    - name: Copy Flask files
+      copy:
+        src: files/flask-app/
+        dest: /opt/flask-app/
+
+    - name: Build Docker image
+      command: docker build -t flask-app /opt/flask-app
+
+    - name: Remove old container
+      shell: docker rm -f flask-app || true
+
+    - name: Start Flask container
+      command: >
+        docker run -d
+        --name flask-app
+        -p 5000:5000
+        flask-app
