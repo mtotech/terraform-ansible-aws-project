@@ -356,6 +356,37 @@ Healthy
 
 ________________________________________
 
+Screenshots:
+
+![Test](screenshots/Browser-output.png)
+
+
+![Test](screenshots/Ansible-apply.png)
+
+
+![Test](screenshots/Ansible-playbook.png)
+
+
+![Test](screenshots/Aws-ec2-instance.png)
+
+
+![Test](screenshots/Healthy.png)
+
+
+![Test](screenshots/Mysql-database.png)
+
+
+![Test](screenshots/S3-bucket.png)
+
+
+![Test](screenshots/Terraform-apply.png)
+
+
+
+![Test](screenshots/Validation.py.png)
+
+
+
 👨‍💻 Author
 
 Neeraj Kumar
@@ -367,4 +398,4 @@ GitHub: https://github.com/mtotech
 LinkedIn: www.linkedin.com/in/neeraj-kumar-iaf
 
 ______________________________
-![Test](screenshots/Browser-output.png)
+
