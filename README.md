@@ -1,11 +1,11 @@
-End-to-End AWS Infrastructure Automation using Terraform, Ansible, Docker, Flask & Python Validation
+# End-to-End AWS Infrastructure Automation using Terraform, Ansible, Docker, Flask & Python Validation
 
-Project Overview
+## Project Overview
 
 This project demonstrates an end-to-end DevOps automation workflow using AWS, Terraform, Ansible, Docker, Flask, and Python.
 The infrastructure is provisioned using Terraform, application deployment is automated using Ansible, the application is containerized with Docker, and infrastructure validation is performed using Python and Boto3.
 ________________________________________
-Architecture
+## Architecture
 
 Developer
 
@@ -65,7 +65,7 @@ Python Validation Script
 
 ________________________________________
  
- Technologies Used
+ ## Technologies Used
  
 •	AWS EC2
 
@@ -92,7 +92,7 @@ ________________________________________
 •	Git & GitHub
 ________________________________________
 
-📂 Project Structure
+## Project Structure
 
 
 terraform-ansible-aws-project/
@@ -176,7 +176,7 @@ terraform-ansible-aws-project/
 ________________________________________
 
  
- Project Objectives
+## Project Objectives
  
 •	Provision AWS infrastructure using Terraform.
 
@@ -198,7 +198,7 @@ ________________________________________
 
 ________________________________________
  
-Infrastructure Provisioned
+## Infrastructure Provisioned
 
 Terraform Resources
 
@@ -236,7 +236,7 @@ Response:
 Healthy
 ________________________________________
 
-Deployment Workflow
+## Deployment Workflow
 
 Step 1: Configure AWS CLI
 
@@ -356,30 +356,48 @@ Healthy
 
 ________________________________________
 
-Screenshots:
+## Project Screenshots:
+
+## Brower-output
 
 ![Test](screenshots/Browser-output.png)
 
 
+## Ansible-apply
+
 ![Test](screenshots/Ansible-apply.png)
+
+## Ansible-playbook
 
 
 ![Test](screenshots/Ansible-playbook.png)
 
+## Aws-ec2-instance
+
 
 ![Test](screenshots/Aws-ec2-instance.png)
+
+## Healthy
 
 
 ![Test](screenshots/Healthy.png)
 
+## Mysql-database
+
 
 ![Test](screenshots/Mysql-database.png)
+
+## S3-bucket
 
 
 ![Test](screenshots/S3-bucket.png)
 
+## Terraform-apply
+
 
 ![Test](screenshots/Terraform-apply.png)
+
+## Validation.py
 
 
 
@@ -387,15 +405,18 @@ Screenshots:
 
 
 
-👨‍💻 Author
 
-Neeraj Kumar
 
-DevOps | Cloud | AWS | Terraform | Ansible | Docker | Kubernetes
 
-GitHub: https://github.com/mtotech
+# Author
 
-LinkedIn: www.linkedin.com/in/neeraj-kumar-iaf
+## Neeraj Kumar
+
+## DevOps | Cloud | AWS | Terraform | Ansible | Docker | Kubernetes
+
+## GitHub: https://github.com/mtotech
+
+## LinkedIn: www.linkedin.com/in/neeraj-kumar-iaf
 
 ______________________________
 
